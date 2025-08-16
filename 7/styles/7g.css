@@ -1,0 +1,28 @@
+.cat-img{
+    height:30px;
+    width:30px;
+    object-position:center;
+    border-radius:15px;
+    vertical-align:middle;
+    
+}
+.tweet{
+    color:Grey;
+    font-size:11px;
+    border:none;
+    vertical-align:middle;
+}
+button{
+    background-color: rgb(10, 144, 234);
+    color: white;
+    border:none;
+    border-radius:10px;
+    font-size:9px;
+    font-weight:bold;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:7px;
+    padding-right:7px;
+
+    vertical-align:middle;
+}
