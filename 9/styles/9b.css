@@ -1,0 +1,6 @@
+.sample-circle{
+    height:400px;
+    width:400px;
+    background-color:green;
+    border-radius: 200px;
+}
