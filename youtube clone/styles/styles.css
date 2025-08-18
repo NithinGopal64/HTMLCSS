@@ -1,0 +1,10 @@
+.video-container{
+    height:400px;
+    width:400px;
+    display:inline-block;
+}
+
+
+.video-author{
+    font-size:100px;
+}
