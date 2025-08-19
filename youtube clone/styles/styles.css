@@ -1,29 +1,46 @@
 .grid-layout{
 display: grid;
-grid-template-columns: 400px 400px;
+grid-template-columns: 1fr 1fr 1fr;
 column-gap:20px;
 row-gap:40px;
+}
+
+.video-desc{
+    display:grid;
+    grid-template-columns: 60px 1fr;
+    column-gap:10px;
 }
 
 .thumbnail-img{
     width:100%;
     margin-bottom:0px;
+    object-fit:cover;
 }
 .author-picture{
     width:50px;
-    border-radius:25px;
+    height:50px;    
+    border-radius:100%;
     object-position:center;
     object-fit:cover;
         margin-bottom:0px;
 
     
 }
+
+.author-thumbnail{
+  
+        margin-top:10px;
+        margin-right:10px;
+
+}
+
 p{
     font-family:Roboto;
     font-weight:500;
     font-size:16px;
     display: inline-block;
     margin-top:0px;
+    margin-bottom:8px;
 }
 .video-author{
     color:rgb(96,96,96);
@@ -32,18 +49,11 @@ p{
 .video-stats{
     color:rgb(96,96,96);
 }
-.author-thumbnail{
-    display:inline-block;
-        vertical-align:top;
-        margin-top:10px;
-        margin-right:10px;
 
-}
 .video-info{
     display:inline-block;
     vertical-align:middle;
     margin-top:10px;
-    width: 300px;
 }
 .video-title{
     display:inline-block;
