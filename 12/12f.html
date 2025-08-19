@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexbox{
+            display:flex;
+            flex-direction: row;
+            background-color: rgb(120, 82, 178);
+            padding: 0px 10px 0px 10px;
+            height:50px;
+            align-items:center;
+            justify-content:space-between;
+        }
+        .left{
+                color: white;
+                font-weight:bold;
+                width:42px;
+        }
+        .middle{
+                max-width:700px;
+                /* width:600px; */
+                flex:1;
+                margin-left:100px;
+                margin-right:100px;
+
+        }
+        .searchelement{
+                border-radius:15px;
+                padding-left:15px;
+                border:none;
+                height:25px;
+                width:100%;
+        }
+        .right{
+            color: white;
+            border: white solid 1px;
+            border-radius:5px;
+            padding: 5px 10px 5px 10px;
+            /* width:60px; */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="flexbox">
+        <div class="left">Home</div>
+        <div class="middle"><input class="searchelement" type="search" placeholder="Search"></div>
+        <div class="right">Download</div>
+    </div>
+</body>
+</html>

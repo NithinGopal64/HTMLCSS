@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .flexbox{
+            display:flex;
+            flex-direction: row;
+        }
+        .c50px{
+            background-color: lightblue;
+            width:50px;
+        }
+        .c75px{
+            background-color: lightblue;
+            width:75px;
+        }
+        .freespace{
+            flex: 1;
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <div class="flexbox">
+        <div class="c50px">
+            50px
+        </div>
+        <div class="freespace">
+            flex: 1
+        </div>
+        <div class="c75px">
+            75px
+        </div>
+
+
+    </div>
+</body>
+</html>
