@@ -1,0 +1,95 @@
+.header{
+   
+    height:70px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:20px;
+}
+.hamburger-menu{
+    height:30px;
+    width:30px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.youtube-logo{
+    height:30px;
+}
+.left-section{
+    display:flex;
+    justify-content: space-between;
+   
+    align-items:center;
+    margin-right:100px;
+}
+.middle-section{
+    display:flex;
+    flex:1;
+        align-items:center;
+    margin-right: 20px;
+
+}
+.right-section{
+    display:flex;
+    width:200px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink:0;
+}
+.upload{
+    width:30px;
+}
+.youtube-apps{
+    width:30px;
+}
+.notifications{
+    width:30px;
+}
+.channel-picture{
+    width:30px;
+    object-fit: contain;
+}
+.searchbar{
+    max-width:500px;
+    width:0;
+    flex:1;
+    height:40px;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.05);
+    border-radius:2px;
+    border:1px solid grey;
+        padding-left: 10px;
+}
+.searchbar::placeholder{
+    color: grey;
+    font-size:15px;
+
+
+}
+.search{
+    width:30px;
+}
+.search-button{
+        /* margin-left:20px; */
+    margin-right:20px;
+
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:3px;
+    padding-bottom:3px;
+    border:none;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.1);
+    margin-left:-1px;
+    border:1px solid grey;
+}
+.voice-search-icon-button{
+
+    border-radius:20px;
+    border:none;
+    background-color: rgb(240, 235, 235);;
+}
+.voice-search-icon{
+    width:30px;
+    height:30px;
+
+}
