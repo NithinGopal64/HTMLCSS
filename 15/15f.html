@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15e</title>
+   
+    <style>
+        img{
+            height:200px;
+            width:200px;
+            object-fit:contain;
+        }
+        .image-container{
+            position:relative;
+            display:inline-block;
+        }
+        .offer{
+            position:absolute;
+            top:5px;
+            right:0px;
+            background-color: black;
+            color:white;
+            font-size:15px;
+            padding: 4px 4px 4px 4px;
+        }
+        .white-bg{
+            z-index:100;
+            position:absolute;
+            background-color: rgb(143, 143, 197);
+            opacity:70%;
+            bottom:0;
+            top:130px;
+            left:0;
+            right:0;
+        }
+        .cart{
+            position: absolute;
+            height:30px;
+            z-index:100;
+            background-color: white;
+            left:50px;
+            right:50px;
+            bottom:20px;
+            border: 1px solid black;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">  
+        <div class="offer">
+            20% OFF
+        </div> 
+        <img src="images/hoodie.webp"> 
+        <div class="white-bg">
+            
+        </div>
+        <button class="cart">Add to Cart</button>
+    </div>
+  
+</body>
+</html>
