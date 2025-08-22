@@ -11,6 +11,24 @@ row-gap:40px;
     column-gap:10px;
 }
 
+.thumbnail{
+    position:relative;
+}
+.video-time{
+    position:absolute;
+    bottom:8px;
+    right:7px;
+    color:white;
+    background-color: black;
+    font-family:Roboto, Arial;
+    font-size:15px;
+    font-weight:500;
+    padding: 4px 4px 4px 4px;
+    border:none;
+    border-radius:2px;
+    opacity:0.8;
+}
+
 .thumbnail-img{
     width:100%;
     margin-bottom:0px;

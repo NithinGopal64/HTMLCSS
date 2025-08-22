@@ -5,7 +5,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-right:20px;
+    /* margin-right:20px; */
+    position:fixed;
+    background-color: white;
+    top:0;
+    right:0;
+    left:0;
+    border-bottom: 1px solid rgb(184, 180, 180);
 }
 .hamburger-menu{
     height:30px;
@@ -45,6 +51,20 @@
 }
 .notifications{
     width:30px;
+}
+.notifications-container{
+    position:relative;
+}
+.notifications-count{
+    color:white;
+    background-color: red;
+    position:absolute;
+    top:0;
+    right:-1px;
+    border-radius:15px;
+    font-size:14px;
+    padding-left: 5px;
+    padding-right:5px;
 }
 .channel-picture{
     width:30px;
